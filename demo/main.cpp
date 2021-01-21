@@ -1,4 +1,4 @@
-// Copyright 2021 Kushpelev Alexei leha.kushpelev@mail.ru
+// Copyright 2021 Kavykin Andrey Kaviandr@yandex.ru
 
 #include "hash_gen.hpp"
 

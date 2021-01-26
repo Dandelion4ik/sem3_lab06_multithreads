@@ -13,8 +13,8 @@ void hash_gen::init_log() const {
   boost::log::add_common_attributes();
   auto trace_log_f = boost::log::add_file_log(
       boost::log::keywords::file_name =
-          "C:\\Users/home/Kavia/CLionProjects/"
-          "sem_lab06_multithreads/Logs/LogTrace_%N.log",
+          "/home/andrey/CLionProjects/"
+          "sem_lab06_multithreads-2/Logs/LogTrace_%N.log",
       boost::log::keywords::rotation_size = rotatation_size,
       boost::log::keywords::format =
           "[%TimeStamp%][%Severity%][%ThreadID%]: [%Message%]");
@@ -24,8 +24,8 @@ void hash_gen::init_log() const {
 
   auto info_log_f = boost::log::add_file_log(
       boost::log::keywords::file_name =
-          "C:\\Users/home/Kavia/CLionProjects/"
-          "sem_lab06_multithreads/Logs/LogInfo_%N.log",
+          "/home/andrey/CLionProjects/"
+          "sem_lab06_multithreads-2/Logs/LogInfo_%N.log",
       boost::log::keywords::rotation_size = rotatation_size,
       boost::log::keywords::format =
           "[%TimeStamp%][%Severity%][%ThreadID%]: [%Message%]");
